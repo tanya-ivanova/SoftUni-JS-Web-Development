@@ -1,0 +1,5 @@
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\TriplesLatinLetters\bin\Debug\TriplesLatinLetters.exe.config
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\TriplesLatinLetters\bin\Debug\TriplesLatinLetters.exe
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\TriplesLatinLetters\bin\Debug\TriplesLatinLetters.pdb
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\TriplesLatinLetters\obj\Debug\TriplesLatinLetters.exe
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\TriplesLatinLetters\obj\Debug\TriplesLatinLetters.pdb

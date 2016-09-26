@@ -1,0 +1,5 @@
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\SpecialNumbers\bin\Debug\SpecialNumbers.exe.config
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\SpecialNumbers\bin\Debug\SpecialNumbers.exe
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\SpecialNumbers\bin\Debug\SpecialNumbers.pdb
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\SpecialNumbers\obj\Debug\SpecialNumbers.exe
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\SpecialNumbers\obj\Debug\SpecialNumbers.pdb

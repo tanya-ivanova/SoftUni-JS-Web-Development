@@ -1,0 +1,5 @@
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CircleArea12DigitsPrecision\bin\Debug\CircleArea12DigitsPrecision.exe.config
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CircleArea12DigitsPrecision\bin\Debug\CircleArea12DigitsPrecision.exe
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CircleArea12DigitsPrecision\bin\Debug\CircleArea12DigitsPrecision.pdb
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CircleArea12DigitsPrecision\obj\Debug\CircleArea12DigitsPrecision.exe
+D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CircleArea12DigitsPrecision\obj\Debug\CircleArea12DigitsPrecision.pdb
