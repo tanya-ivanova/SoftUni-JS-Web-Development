@@ -4,3 +4,9 @@ D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\
 D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CenturiesToMinutes\obj\Debug\CenturiesToMinutes.csprojResolveAssemblyReference.cache
 D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CenturiesToMinutes\obj\Debug\CenturiesToMinutes.exe
 D:\SoftUni\(2) TechModule\(1) ProgrammingFundamentals\(2) DataTypesAndVariables\(1) Lab\DataTypesAndVariablesLab\CenturiesToMinutes\obj\Debug\CenturiesToMinutes.pdb
+C:\Users\user\Desktop\SoftUni\SoftUni\ProgrammingFundamentals\DataTypesAndVariables\DataTypesAndVariablesLab\CenturiesToMinutes\bin\Debug\CenturiesToMinutes.exe.config
+C:\Users\user\Desktop\SoftUni\SoftUni\ProgrammingFundamentals\DataTypesAndVariables\DataTypesAndVariablesLab\CenturiesToMinutes\obj\Debug\CenturiesToMinutes.exe
+C:\Users\user\Desktop\SoftUni\SoftUni\ProgrammingFundamentals\DataTypesAndVariables\DataTypesAndVariablesLab\CenturiesToMinutes\obj\Debug\CenturiesToMinutes.pdb
+C:\Users\user\Desktop\SoftUni\SoftUni\ProgrammingFundamentals\DataTypesAndVariables\DataTypesAndVariablesLab\CenturiesToMinutes\bin\Debug\CenturiesToMinutes.exe
+C:\Users\user\Desktop\SoftUni\SoftUni\ProgrammingFundamentals\DataTypesAndVariables\DataTypesAndVariablesLab\CenturiesToMinutes\bin\Debug\CenturiesToMinutes.pdb
+C:\Users\user\Desktop\SoftUni\SoftUni\ProgrammingFundamentals\DataTypesAndVariables\DataTypesAndVariablesLab\CenturiesToMinutes\obj\Debug\CenturiesToMinutes.csprojResolveAssemblyReference.cache
