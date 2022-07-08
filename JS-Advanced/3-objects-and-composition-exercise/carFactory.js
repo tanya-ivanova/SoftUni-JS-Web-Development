@@ -2,17 +2,17 @@ function carFactory (inputObj) {
     let carObj = {};
     carObj.model = inputObj.model;
 
-    if (inputObj.power < 105) {
+    if (inputObj.power <= 90) {
         carObj.engine = {
             power: 90,
             volume: 1800
         }
-    } else if (inputObj.power < 160) {
+    } else if (inputObj.power <= 120) {
         carObj.engine = {
             power: 120,
             volume: 2400
         } 
-    } else (
+    } else if (inputObj.power <= 200) (
         carObj.engine = {
             power: 200,
             volume: 3500
