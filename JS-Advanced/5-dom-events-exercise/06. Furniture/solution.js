@@ -50,11 +50,13 @@ function solve() {
       inputCheckbox.type = 'checkbox';
       let td5 = document.createElement('td');
       td5.appendChild(inputCheckbox);
-      trElement.appendChild(td5);  
-      
-      checkboxesAll = Array.from(document.querySelectorAll('input[type="checkbox"]'));   
-      checkboxesAll.forEach(c => c.disabled = false);      
+      trElement.appendChild(td5);       
+            
     }    
+
+    checkboxesAll = Array.from(document.querySelectorAll('input[type="checkbox"]'));   
+    checkboxesAll.forEach(c => c.disabled = false);
+
   }
 
   function buy (event) {
@@ -88,6 +90,5 @@ function solve() {
     outputText += `Average decoration factor: ${averageDecFactor}`;
 
     outputTextarea.value = outputText;
-  }
-  
+  }  
 }
