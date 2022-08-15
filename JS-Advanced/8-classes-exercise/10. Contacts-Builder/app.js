@@ -1,10 +1,11 @@
+// not working correctly
 class Contact {
     constructor(firstName, lastName, phone, email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.phone = phone;
         this.email = email;
-        this.online = false;        
+        this._online = false;        
     }
     
     get online() {
@@ -55,7 +56,7 @@ class Contact {
             }
         }
 
-        if(this.online === true) {
+        if(this._online === true) {
             divTitle.classList.add('online');
         }
 
