@@ -1,0 +1,25 @@
+<section>
+  {{#with room}}
+    <h1>{{name}} - Details</h1>
+    <main>
+      <div>
+        <img src="{{imgUrl}}" />
+      </div>
+      <p>{{city}}</p>
+      <p>{{description}}</p>
+      <div class="align-center">
+        <p><strong>Price per night: {{price}}€</strong></p>
+        <ul class="catalog">
+          {{#each facilities}}
+          <li>{{label}} <img class="facility-icon" src="{{iconUrl}}"></li>
+          {{/each}}
+        </ul>
+        {{#if isOwner}}
+        <a href="/room/{{_id}}/edit" class="action">Edit</a>
+        <a href="/facility/{{_id}}/decorateRoom" class="action">Facilities</a>
+        <a href="/room/{{_id}}/delete" class="action">Delete</a>
+        {{/if}}
+      </div>
+    </main>
+  {{/with}}
+</section>

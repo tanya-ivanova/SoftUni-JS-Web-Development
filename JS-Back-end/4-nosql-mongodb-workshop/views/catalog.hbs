@@ -1,0 +1,30 @@
+<section>
+    <h1>All Accommodation</h1>
+    <!--
+    <main class="item pad-large align-center">        
+            <form class="layout left large" method="get">
+                <div class="col">
+                    <label><span>Location</span><input name="city" value="{{city}}"></label>
+                    <label><span>Terms</span><input name="search" value="{{search}}"></label>
+                </div>
+                <div>
+                    <label><span>From price</span><input type="number" name="fromPrice" min="1" max="1000" value="{{fromPrice}}"</label>
+                    <label><span>To price</span><input type="number" name="toPrice" min="1" max="1000" value="{{toPrice}}"></label>
+                </div>
+
+                <input type="submit" value="Search" class="action">
+            </form>
+    </main>
+    -->
+    <main>
+        {{#if rooms}}
+        <ul>
+            {{#each rooms}}
+            {{> roomCard}}
+            {{/each}}
+        </ul>
+        {{else}}
+        <p>Nothing has been listed yet! Be the first!</p>
+        {{/if}}
+    </main>
+</section>

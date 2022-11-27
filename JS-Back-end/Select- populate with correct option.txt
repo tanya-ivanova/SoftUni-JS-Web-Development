@@ -1,0 +1,41 @@
+Пример за select:
+ 
+1) Правим си една функция, която да генерира нужния масив с определената структура от обекти, които ще ни помогнат да генерираме в последствие options.
+ 
+function createOptions(category) {
+  return [
+    { content: 'Real Estate', value: 'estate' },
+    { content: 'Vehicles', value: 'vehicles' },
+    { content: 'Furniture', value: 'furniture' },
+    { content: 'Electronics', value: 'electronics' },
+    { content: 'Other', value: 'other' },
+  ].map((x, i) => (x.value === category ? { ...x, selected: 'selected' } : x));
+}
+ 
+В property content запазваме нещото , което ще е като стойност на самия option ( което ще вижда потребителят )
+В value се запазва името на property-то , което сме дефинирали в модела.
+ 
+Когато достъпим route за вземане на данните ( GET ):
+ 
+ async edit(req, res) {
+      const { auctionId } = req.params;
+      const record = await auctionModel.findById(auctionId);
+// Тук първо си взимаме записа, който искаме да визуализираме и използваме категорията, която е запазена в базата за този запис.
+// Подаваме текущата категория и при генериране на желания масив, ще се подсигурим ,че ще селектираме правилния option.
+ 
+      record.options = createOptions(record.category);
+      res.render(
+        'auction/edit',
+        Object.assign(record, { title: 'Edit Auction', auctionTitle: record.title })
+      );
+    }
+Добавяме едно ново property към обекта record.options = и тук извикваме функцията, която да ни генерира нужния масив.
+Остава да използваме този обект в темплейта ( edit.hbs ):
+ 
+<select name='category'>
+  {{#each options}}
+  <option value='{{value}}' {{selected}} >{{content}}</option>
+  {{/each}}
+</select>
+ 
+Тук използваме property "options", което сме поставили в record и за всеки един елемент ( обект ) от масива си генерираме нужния option. Като ще се селектира и правилната категория, която сме подали във функцията createOptions.

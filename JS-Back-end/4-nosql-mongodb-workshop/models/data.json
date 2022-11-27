@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1234",
+    "name": "Room",
+    "description": "Nice and cozy",
+    "city": "Bansko",
+    "beds": 2,
+    "price": 130,
+    "imgUrl": "/static/assets/room1.jpg"
+  },
+  {
+    "id": "0c36e8",
+    "name": "jhlgb",
+    "description": "i;uhpo",
+    "city": "lgjkgh",
+    "beds": 2,
+    "price": 18,
+    "imgUrl": ";ihu;i"
+  },
+  {
+    "id": "0afec0",
+    "name": "fkyg",
+    "description": "poiu",
+    "city": "iuygu",
+    "beds": 1,
+    "price": 123,
+    "imgUrl": "ipy"
+  },
+  {
+    "id": "06851a",
+    "name": "hotel",
+    "description": "rtwr",
+    "city": "sofia",
+    "beds": 3,
+    "price": 134,
+    "imgUrl": "rter"
+  },
+  {
+    "id": "0ea2ca",
+    "name": "studio",
+    "description": "fghs",
+    "city": "Varna56",
+    "beds": 1,
+    "price": 56,
+    "imgUrl": "fgf"
+  }
+]
