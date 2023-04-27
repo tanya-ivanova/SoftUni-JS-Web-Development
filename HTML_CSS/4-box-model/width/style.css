@@ -1,0 +1,40 @@
+.block {
+    background-color: orange;
+    /* width: 200px; */
+    min-width: 300px;
+    max-width: 600px;
+}
+
+.half-container {
+    background-color: coral;
+    width: 50%;
+    min-width: 400px;
+}
+
+.half-text {
+    background-color: lightseagreen;
+    width: 50%;
+}
+
+.inline {
+    background-color: orange;
+    width: 300px;
+    /* width does not work for inline elements */
+}
+
+.iblock {
+    background-color: red;
+    display: inline-block;
+    width: 300px;
+}
+
+.grid {
+    list-style: none;
+}
+
+.grid li {
+    display: inline-block;
+    height: 200px;
+    background-color: pink;
+    width: 30%;
+}

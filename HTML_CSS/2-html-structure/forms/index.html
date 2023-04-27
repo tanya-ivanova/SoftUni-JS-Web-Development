@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>FORMS</h1>
+
+    <form action="submitted.html" method="post">
+      <div>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" disabled />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="johndoe@mail.com" required />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" />
+      </div>
+
+      <div>
+        <h2>Select a car brand</h2>
+        <label for="volvo">Volvo</label>
+        <input id="volvo" type="checkbox" name="brand" value="VOLVO" />
+
+        <label for="ford">Ford</label>
+        <input id="ford" type="checkbox" name="brand" value="FORD" />
+
+        <label for="skoda">Skoda</label>
+        <input id="skoda" type="checkbox" name="brand" value="SKODA" />
+      </div>
+
+      <div>
+        <h2>Select a location</h2>
+        <label for="germany">Germany</label>
+        <input id="germany" type="radio" name="location" value="GERMANY" />
+
+        <label for="bulgaria">Bulgaria</label>
+        <input id="bulgaria" type="radio" name="location" value="BULGARIA" />
+
+        <label for="france">France</label>
+        <input id="france" type="radio" name="location" value="FRANCE" />
+      </div>
+
+      <div>
+        <div>
+          <label for="msg">Message</label>
+        </div>
+        <textarea name="msg" id="msg" cols="30" rows="5"></textarea>
+      </div>
+
+      <button>Submit <b>text</b></button>
+      <input type="submit" value="Submit via input" />
+
+      <button type="reset">Reset</button>
+      <button type="button">Normal button</button>
+    </form>
+
+    <h2>Outside</h2>
+    <button>Submit <b>text</b></button>
+    <input type="submit" value="Submit via input" />
+
+    <button type="reset">Reset</button>
+    <button type="button">Normal button</button>
+  </body>
+</html>

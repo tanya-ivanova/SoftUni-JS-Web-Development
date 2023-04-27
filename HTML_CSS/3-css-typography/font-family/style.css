@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "ShadowsIntoLight-Regular";
+    src: url(fonts/ShadowsIntoLight-Regular.ttf);
+}
+
+p {
+    font-family: "ShadowsIntoLight-Regular";
+}
+
+.main-ul {
+    font-size: 18px;
+}
+
+.main-ul li {
+    font-size: 1.2em;
+}
+
+/* html {
+    font-size: 8px;
+}
+
+main-ul li {
+    font-size: 1.5rem;
+} */
+
+.example3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+    text-decoration: line-through;
+    text-indent: 15px;
+    word-break: normal;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.example4 {
+    font-size: 21px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 20px solid red;
+}

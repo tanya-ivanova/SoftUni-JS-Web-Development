@@ -1,0 +1,25 @@
+.container {
+    border: 2px solid red;
+    padding: 10px;
+    height: 300px;
+}
+
+.element-block {
+    margin: 0 auto;
+    background-color: lightgreen;
+    width: 200px;
+}
+
+.element-inline {
+    display: inline;
+    margin: 0 auto;
+    background-color: lightgreen;
+    width: 200px;
+}
+
+.element-inline-block {
+    display: inline-block;
+    margin: 0 auto;
+    background-color: lightgreen;
+    width: 200px;
+}

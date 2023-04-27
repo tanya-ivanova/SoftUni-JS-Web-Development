@@ -1,0 +1,98 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    width: 32%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 100px;
+    background-color: #f8f8f8;    
+    padding: 50px 30px;
+}
+
+.container {
+    position: relative;
+}
+
+.container:focus-within .icon {
+    visibility: hidden;
+}
+
+legend {
+    font-size: 22px;
+    font-weight: 100;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px 150px 12px 20px;
+    background-color: #f8f8f8;    
+}
+
+p {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input {
+    width: 76%;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+i {
+    position: absolute;
+    font-size: 20px;
+    top: 28px;
+    left: 126px;
+}
+
+.btn-login {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+@media (max-width: 1640px) {
+    input {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1300px) {
+    fieldset {
+        width: 70%;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    p {
+        display: block;
+    }
+
+    i {        
+        top: 58px;
+        left: 14px;
+    }
+
+    .btn-login {
+        margin-top: 40px;
+    }
+}

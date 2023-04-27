@@ -1,0 +1,48 @@
+@import "https://use.fontawesome.com/releases/v5.10.2/css/all.css";
+
+.viewport {
+  height: 700px;
+}
+.first {
+  background-image: linear-gradient(to right, blue, lightseagreen);
+}
+
+.second {
+  background-image: linear-gradient(to right, purple, orange);
+}
+
+.card {
+  display: block;
+  position: absolute;
+}
+
+img {
+  display: block;
+  width: 400px;
+  position: absolute;  
+}
+
+.first img {
+    top: 216px;
+    left: 520px;
+}
+
+.second img {
+    top: 50px;
+    left: 520px;
+}
+
+i {
+    color: white;
+    position: absolute;
+}
+
+.first i {
+    top: 454px; 
+    left: 894px; 
+}
+
+.second i {
+    top: 624px; 
+    left: 894px; 
+}

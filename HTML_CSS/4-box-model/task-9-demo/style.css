@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid red;
+    padding: 5px;
+    font-size: 0px;    
+}
+
+.container > * {
+    font-size: 16px;
+}
+
+.text {
+    padding: 5px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 6px;    
+}
+
+.first {
+    width: 80%;
+    height: 180px;
+}
+
+.second {
+    margin-left: 10px;
+    width: calc(20% - 10px);
+    vertical-align: top;
+}

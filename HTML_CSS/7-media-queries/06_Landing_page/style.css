@@ -1,0 +1,289 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding-top: 10px;
+}
+
+header {  
+    margin-bottom: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.site-heading h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #800080;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.1;
+}
+
+.site-heading p {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+.site-navigation ul {
+    display: flex;
+    gap: 50px;        
+}
+
+.site-navigation a {
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+
+section.need-a-website {
+    width: 60%;
+    margin: 0px auto 120px auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;    
+}
+
+section.need-a-website .content-container {
+    width: 66%;
+}
+
+section.need-a-website .image-container {
+    width: 280px;
+    height: 280px;
+}
+
+section.need-a-website img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.need-a-website h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+section.need-a-website p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+section.need-a-website .btn.tell-us {
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 6px;
+}
+
+section.our-team {
+    width: 70%;
+    margin: 0px auto 100px auto;
+}
+
+section.our-team h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.line {
+    width: 120px;
+    border-bottom: 4px solid black;
+    text-align: center;
+    margin: 10px auto 60px auto;
+}
+
+section.our-team .team-container {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    align-items: start;
+    gap: 70px;
+}
+
+section.our-team .team-member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 26%;
+}
+
+section.our-team .team-member .image-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+section.our-team .team-member .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0px 0px 11px 2px #B8B8B8;
+}
+
+section.our-team .team-member .content-container .desc {
+    margin-top: 30px;
+    font-style: italic;
+}
+
+section.sign-up-to-our-newsletter {
+    background-color: #800080;
+    margin-bottom: 70px;
+}
+
+section.sign-up-to-our-newsletter .wrapper {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+section.sign-up-to-our-newsletter h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: 400;
+    color: white;
+}
+
+section.sign-up-to-our-newsletter input {
+    display: inline-block;
+    width: 42%;
+    height: 38px;
+    border-radius: 4px;
+}
+
+section.sign-up-to-our-newsletter .btn.sign-up {
+    height: 38px;
+    border-radius: 4px;
+    background-color: white;
+    width: 16%;
+    font-weight: bold;
+}
+
+section.testimonials {
+    width: 70%;
+    margin: 0px auto 120px auto;
+}
+
+section.testimonials h2 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+section.testimonials .testimonials-container {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+    align-items: start;
+    gap: 70px;
+}
+
+section.testimonials .testimonials-container .testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 26%;
+}
+
+section.testimonials .testimonial .image-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+section.testimonials .testimonial .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0px 0px 11px 2px #B8B8B8;    
+}
+
+section.testimonials .testimonial .content-container .testimonial-text {
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+footer {
+    box-shadow: 0px 18px 11px 18px #999999;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.footer-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+footer .purple-spider {
+    width: 20%;   
+}
+
+footer .purple-spider h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+footer .sitemap {
+    width: 24%;
+}
+
+footer .sitemap .footer-links {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 20px;      
+}
+
+footer .sitemap h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer .sitemap a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .contacts {
+    font-size: 19px;
+}
+
+footer .contacts h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+footer .contacts span {
+    padding-left: 10px;
+}

@@ -1,0 +1,41 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #234465;
+    padding: 12px 32px;
+    display: flex;
+    align-items: center;    
+}
+
+.header .logo {
+    margin-right: auto;
+}
+
+.navigation {
+    margin-right: auto;
+}
+
+.navigation .list {
+    display: flex;
+    gap: 12px;
+}
+
+.navigation .nav-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    all: unset;
+    padding: 4px;        
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn.btn-search {
+    margin-right: 12px;
+}

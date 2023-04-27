@@ -1,0 +1,24 @@
+.special-text {
+    color: lightgreen;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+button {
+    padding: 4px 12px;
+    line-height: 20px;
+    color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+button.shopping {
+    background-color: #83a94c;
+    color: black;
+    transition: background-color 300ms linear, color 300ms linear;
+}
+
+button.shopping:hover {
+    background-color: darkgreen;
+    color: white;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: column; 
+    justify-content: space-between;       
+}
+
+div.wrapper {
+    flex-wrap: wrap;    
+    flex-direction: column; 
+}
+
+header {
+    padding: 20px;
+    border-bottom: 3px solid black;    
+}
+
+h1 {
+    margin: 0px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+}
+

@@ -1,0 +1,169 @@
+html {
+    font-size: 23px;
+}
+
+body {
+    background-color: rgb(238, 238, 238);    
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;  
+    margin: 0px;  
+}
+
+div.wrapper {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+header.site-header {
+    grid-area: header;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
+}
+
+.site-header p {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;    
+    margin: 0;
+}
+
+.site-header nav {   
+    vertical-align: top;  
+    float: right; 
+    margin-right: 20px; 
+}
+
+.site-header ul {
+    margin: 0;    
+}
+
+.site-header li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 30px;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+main {
+    grid-area: main;
+}
+
+aside {
+    grid-area: aside;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+main p {
+    margin-bottom: 24px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.first-image {
+    float: right;
+    margin: 0px 0px 20px 20px;    
+}
+
+.second-image {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.paragraph-before-quote {
+    display: inline-block;
+    width: 42%;
+}
+
+blockquote {
+    font-family: Georgia, serif;    
+    width: 40%;
+    float: right;
+    font-style: italic;
+    margin-left: 0px;
+    padding-left: 30px;
+    padding-bottom: 34px;
+    border-left: 4px solid lightgray;
+}
+
+blockquote p {
+    margin-top: 0;
+}
+
+.author-name {
+    text-align: right;
+}
+
+@media (max-width: 1800px) {
+    html {
+        font-size: 21px;
+    }
+
+    div.wrapper {
+        max-width: 75%;        
+    }
+}
+
+@media (max-width: 1300px) {
+    html {
+        font-size: 18px;
+    }
+
+    div.wrapper {
+        max-width: 85%;        
+    }
+
+    body {
+        padding: 50px 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 16px;
+    }
+
+    div.wrapper {
+        max-width: 100%;        
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+
+    .first-image,
+    .second-image {
+        display: block;
+        float: none;
+    }
+
+    .paragraph-before-quote {
+        display: block;
+        width: 100%;
+    }
+
+    blockquote {
+        float: none;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 12px;
+    }
+}

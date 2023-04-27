@@ -1,0 +1,29 @@
+.block {
+    background-color: orange;
+}
+
+h2 {
+    background-color: pink;
+}
+
+label {
+    background-color: green;
+}
+
+.inline {
+    background-color: lightgreen;
+}
+
+.inline-block label {
+    background-color: red;
+    display: inline-block;
+}
+
+.inline-block .span-ib {
+    display: inline-block;
+    background-color: lightcoral;
+}
+
+.inline-heading {
+    display: inline;
+}

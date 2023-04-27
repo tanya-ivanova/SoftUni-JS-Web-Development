@@ -1,0 +1,30 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.gallery {
+    max-width: 1200px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+li {
+    background-color: white;
+    padding: 36px 16px;
+    border: 8px solid black;
+    display: flex;
+    align-items: center;
+}

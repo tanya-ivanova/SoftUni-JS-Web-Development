@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+}
+.container > div {
+    background-color: lightsalmon;
+    padding: 2rem;
+    font-size: 4rem;
+    width: 30%;
+}
