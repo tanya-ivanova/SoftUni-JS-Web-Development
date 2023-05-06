@@ -1,0 +1,64 @@
+@media (max-width: 600px) {
+    body {
+        margin: 0px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    section.left-to-right:first-child {
+        padding: 40px;         
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        height: 600px;         
+    }
+
+    section.left-to-right:first-child article {
+        margin-bottom: 70px;
+    }
+
+    main .left-to-right article {
+        width: 100%;
+        padding: 30px 20px;
+        border-radius: 100px;        
+        margin: 0 auto;
+        height: 420px;
+    }
+
+    button {
+        display: none;
+    }
+
+    main section:nth-child(2) {
+        flex-direction: column;
+    }
+
+    main section:nth-child(4) {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main section:nth-child(4) article:first-child {
+        margin: 0px;
+        flex-direction: row;
+        
+    }
+
+    main section:nth-child(4) article form {
+        width: 100%;   
+        display: flex;
+        flex-direction: column;            
+    }
+
+    main section:nth-child(4) article form input#name,
+    main section:nth-child(4) article form input#email,
+    main section:nth-child(4) article form textarea {
+        width: 100%;        
+    }
+
+    main section:nth-child(4) article form label:last-child {
+        align-self: center;
+    }
+}

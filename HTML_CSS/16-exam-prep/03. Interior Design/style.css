@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section.hero {
+    height: 140vh;
+    background-image: url(image/image.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+section.hero .site-title {
+    position: absolute;
+    top: 50px;
+    left: 160px;
+    padding: 30px 110px 30px 20px;
+    box-shadow: 2px 0px 8px 2px #5E5E5E;
+}
+
+section.hero .site-title h1 {
+    font-family: 'Abril Fatface', cursive;
+    width: 180px;
+    font-size: 46px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid white;
+}
+
+section.hero .site-title h2 {    
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 10px;
+
+}
+
+section.hero .desc {
+    position: absolute;
+    top: 410px;
+    right: 150px;
+    width: 400px;
+    background: linear-gradient(90deg, rgba(155,145,137,1) 0%, rgba(191,186,181,1) 50%, rgba(201,199,198,1) 100%);
+    text-align: right;
+    padding: 20px 20px 30px 20px;
+}
+
+section.hero .desc p:first-child {
+    font-size: 90px;
+    color: #a49e9b;
+    margin-bottom: -50px;
+}
+
+section.hero .desc p:nth-child(2) {
+    color: white;
+    font-size: 20px;
+}
+
+section.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "main main aside";
+}
+
+section.main-section {
+    grid-area: main;
+    background-color: #f2f0f3;
+}
+
+section.main-section h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 42px;
+    text-transform: uppercase;
+}
+
+section.main-section h2:first-of-type {
+    margin-bottom: 26px;
+}
+
+.our-services {
+    margin-bottom: 80px;
+    margin: 50px 100px 100px 100px;
+}
+
+.services-list {
+    font-size: 20px;
+    color: #717277;
+}
+
+.services-list li {
+    margin-bottom: 20px;
+}
+
+.services-list span {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-left: 10px;
+    color: #434443;
+}
+
+.services-list i {
+    color: #434443;
+}
+
+section.aside {
+    grid-area: aside;
+    background-color: #bab1ad;    
+}
+
+section.main-section div.contact h2 {
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+
+.divider {
+    height: 2px;
+    background-color: #434443;
+}
+
+ul.contacts-list {
+    margin: 20px 100px 20px 100px;    
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 8px;
+    color: #717277;
+    width: 70%;
+}
+
+ul.contacts-list li span {
+    color: #434443;
+    font-style: italic;
+    padding-right: 4px;
+    font-weight: bold;
+}
+
+div.contact form {
+    margin: 40px 0px 30px 100px;
+}
+
+div.contact form input {
+    height: 48px;
+    border-radius: 8px;
+    width: 30%;
+    background-color: #bab1ad;
+    border: none; 
+    margin-right: 12px;   
+}
+
+div.contact form input::placeholder {
+    color: white;
+    padding-left: 16px;
+}
+
+button.get-started {
+    background-color: #67784d;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 12px 22px;
+}
+
+section.aside ul.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+    height: 100%;
+}
+
+section.aside ul.features h2 {
+    color: white;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+section.aside ul.features p {
+    color: #5d6060;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: -22px;
+}

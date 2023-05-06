@@ -1,0 +1,70 @@
+:root {
+    --color-background: #f6f8f9;
+    --color-button-sales: #786eff;
+    --color-dark-grey: #273240;
+    --color-light-grey: #646f79;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+  
+}
+
+section.hero {
+    background-color: var(--color-background);
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px 0px 100px;
+}
+
+section.hero .content-container {
+    width: 40%;
+}
+
+section.hero .content-container h2 {
+    color: var(--color-dark-grey);
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+section.hero .content-container h1 {
+    color: var(--color-dark-grey);
+    font-size: 48px; 
+    font-weight: 400; 
+    letter-spacing: 1px; 
+    margin-bottom: 28px; 
+}
+
+section.hero .content-container p {
+    color: var(--color-light-grey);
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-bottom: 28px;
+}
+
+section.hero .content-container .btn {
+    padding: 16px 36px;
+    font-size: 22px;
+    letter-spacing: 2px; 
+    border-radius: 4px;   
+}
+
+section.hero .content-container .btn.contact-sales {
+    background-color: var(--color-button-sales);
+    color: white;
+    border: none;
+    font-weight: 500;    
+    margin-right: 20px;
+}
+
+section.hero .content-container .btn.learn-more {
+    background-color: white;
+    font-weight: 600;
+    color: var(--color-dark-grey);
+    border: 1px solid var(--color-dark-grey);
+}

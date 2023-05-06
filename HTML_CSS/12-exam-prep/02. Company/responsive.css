@@ -1,0 +1,90 @@
+@media (max-width: 600px) {
+  .hero-head {
+    background-color: #000000;
+    background-image: none;
+    text-align: center;
+  }
+  .main-nav {
+    display: none;
+  }
+
+  .wrapper {
+    width: auto;
+  }
+
+  .hero-head .goal {
+    float: none;
+    max-width: 100%;
+  }
+
+  .hero-head .goal {
+    line-height: 2;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-head h1 {
+    font-size: 46px;
+    float: none;
+    line-height: 88px;
+  }
+
+  .content-wrap {
+    flex-direction: column;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-wrap.two-col .col {
+    margin-right: 0px;
+  }
+
+  .button {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  section.content.bordered .module-text {
+    font-size: 22px;
+    line-height: 2;
+  }
+
+  .sponsors .module-text {
+    font-size: 23px;
+    line-height: 2;
+  }
+
+  .content-wrap-full {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .main-foot .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-foot address,
+  .main-foot nav {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  .main-foot nav:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .main-foot .bottom .bottom-wrap {
+    float: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}

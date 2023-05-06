@@ -1,0 +1,190 @@
+body {
+    font-family: Helvetica;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 40px 50px;
+}
+
+.site-header .site-title {
+    display: inline-block;
+    font-size: 54px;
+    padding-right: 20px;
+    line-height: 1.2;
+    border-right: 1px solid #bababa;
+}
+
+.site-heading span {
+    display: inline-block;
+    padding-left: 20px; 
+    font-size: 24px;   
+}
+
+.navigation .header-menu {
+    display: flex;
+    gap: 1px;
+}
+
+.navigation .header-menu li {
+    background-color: #ececec;
+    padding: 30px; 
+}
+
+.navigation .header-menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;       
+}
+
+.navigation .header-menu li:hover {
+    background-color: #e24e2a;   
+}
+
+.navigation .header-menu li:hover a {
+    color: white;
+}
+
+section.site-image .site-image-container {
+    width: 100%;
+    height: 68vh;
+}
+
+section.site-image .site-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.site-info {
+    background-color: #e24e2a;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 60px;
+    padding-bottom: 100px;    
+}
+
+.site-info-wrapper {
+    width: 76%;
+    margin: 0 auto;
+}
+
+section.site-info .site-desc {
+    line-height: 1.7;
+}
+
+section.site-info .site-desc .underlined {
+    text-decoration: underline;
+}
+
+section.site-icons,
+section.flex-items {
+    background-color: #383838;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.flex-container {    
+    display: flex;
+    justify-content: space-around;   
+    width: 94%; 
+    margin: 0 auto;
+    align-items: flex-start;
+    text-align: center;
+    gap: 30px;
+}
+
+section.site-icons i {
+    color: white;
+    background-color: #e24e2a;
+    font-size: 80px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+section.site-icons i.first-icon {
+    margin-bottom: 40px;
+}
+
+section.site-icons h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 26px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #646464;
+}
+
+section.site-icons p {
+    color: #646464;
+    font-size: 22px;
+    line-height: 1.7;
+    margin-top: 30px;
+}
+
+section.maecenas .wrapper {
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+section.maecenas h2 {
+    color: #555555;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+section.maecenas p {
+    color: #a2a2a2;
+    font-size: 25px;
+}
+
+section.maecenas .btn {
+    background-color: #1b9772;
+    color: white;
+    border: none;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding: 20px 60px;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+section.flex-items h2 {
+    color: white;
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+section.flex-items p {
+    color: #646464;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.site-footer {
+    padding-top: 110px;
+    padding-bottom: 130px;
+    background-color: #1b9772;
+}
+
+.site-footer .wrapper {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;    
+}
+
+.site-footer .wrapper p {
+    letter-spacing: 3px;
+    font-weight: 400;
+    color: #5bb397;
+}
+
+.site-footer .wrapper span {
+    color: #8fd0c1;
+}

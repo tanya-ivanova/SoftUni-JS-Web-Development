@@ -1,0 +1,126 @@
+@media (max-width: 600px) {
+    header .div-header {
+        display: none;
+    }
+
+    header .options {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    header .options article {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .options a {
+        display: none;
+    }
+
+    main .gallery {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .gallery article {
+        width: 50%;
+    }
+
+    main .gallery article img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    main .gallery article div {
+        display: none;
+    }
+
+    section.blog .blog-title {
+        width: 70%;
+    }
+
+    .blog-title h4 span {
+        display: none;
+    }
+
+    .blog-title a {
+        display: none;
+    }
+
+    section.blog .blog-title h4 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    section.blog article {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    section.blog #about-blog  {
+        width: 100%;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    section.magazine .magazine-title {
+        padding-left: 20px;
+        width: 90%;
+    }
+
+    section.magazine .magazine-title h4 {
+        font-size: 20px;
+    }
+
+    section.magazine .magazine-title a {
+        display: none;
+    }
+
+    section.magazine article {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    section.magazine #magazine-img {
+        width: 60%;
+    }
+
+    section.magazine .magazine-info {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    } 
+
+    section.magazine .magazine-info img {
+        width: 100%;
+    }
+
+    section.magazine .magazine-info h3 {
+        margin-bottom: 30px;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header.site-header {
+  width: 88%;
+  margin: 14px auto 24px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.site-header .logo-container {
+  width: 140px;
+}
+
+header.site-header .header-links {
+  display: flex;
+  gap: 20px;
+}
+
+header.site-header a {
+  color: #5a5a70;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+main .img-wrapper {
+  width: 100%;
+  height: 300px;
+  background-color: #54546d;
+  position: relative;
+}
+
+main .img-wrapper img {
+  position: relative;
+  top: 50px;
+  left: -70px;
+}
+
+main h1.site-title {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  top: -280px;
+  margin: 30px 0;
+}
+
+section.fees {
+  margin-bottom: -150px;
+}
+
+section.fees ul.courses {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  gap: 36px;
+  position: relative;
+  top: -280px;
+}
+
+section.fees li.course {
+  background-color: white;
+  width: 32%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px #b3b3b3;
+  overflow: hidden;
+}
+
+section.fees li.course .course-details {
+  height: 270px;
+}
+
+section.fees li.course .course-title {
+  font-size: 30px;
+  color: #54546d;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+section.fees li.course .course-title-with-margin {
+  margin-bottom: 20px;
+}
+
+section.fees li.course p {
+  font-size: 20px;
+  color: #54546d;
+}
+
+section.fees li.course p.desc,
+section.fees li.course p.desc-last {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+section.fees li.course p.desc {
+  margin-bottom: 20px;
+}
+
+section.fees li.course p.desc-last {
+  margin-bottom: 38px;
+}
+
+section.fees button.apply {
+  margin-top: 40px;
+  background-color: #9a5dc6;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 50px;
+}
+
+section.fees li.course .prices p {
+  color: white;
+}
+
+section.fees .course.first .prices {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 154, 60, 1) 0%,
+    rgba(37, 183, 93, 1) 50%,
+    rgba(109, 215, 149, 1) 100%
+  );
+}
+
+section.fees .course.second .prices {
+  background: linear-gradient(
+    90deg,
+    rgba(76, 107, 135, 1) 0%,
+    rgba(87, 131, 172, 1) 50%,
+    rgba(98, 155, 208, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+section.fees .prices {
+  height: 120px;
+}
+
+section.fees .prices .price {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+section.fees .course.first .price {
+  padding-top: 16px;
+}
+
+section.fees .course.second .price,
+section.fees .course.third .price {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+section.fees .prices .price-desc {
+  padding-bottom: 10px;
+}
+
+section.fees .prices .price-on-site,
+section.fees .prices .price-online {
+  width: 50%;
+}
+
+section.fees .prices .price-on-site {
+  border-right: 1px solid white;
+}
+
+section.fees .course.third .prices {
+  background: linear-gradient(
+    90deg,
+    rgba(74, 55, 165, 1) 0%,
+    rgba(108, 91, 196, 1) 50%,
+    rgba(141, 126, 226, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+section.study-form {
+  color: #54546d;
+  width: 70%;
+  margin: 0 auto 100px auto;
+}
+
+section.study-form h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+section.study-form p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+section.study-form li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  font-size: 22px;
+}
+
+section.study-form ul li span {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+section.study-form ul li span img {
+  width: 22px;
+}
+
+.study-form ul li:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.study-form ul li:nth-child(odd) {
+  background-color: #e6e6e6;
+}
+
+.study-form ul li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.study-form ul li:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+section.finance {
+    width: 88%;
+    margin: 0px auto 120px auto;
+    color: #54546d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.finance h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+section.finance p {
+    font-size: 19px;
+}
+
+section.finance p:first-of-type {
+    margin-bottom: 20px;
+}
+
+section.finance .content-container {
+    width: 60%;
+}
+
+section.finance .logo-container {
+    width: 26%;
+}
+
+section.finance .logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.site-footer {
+    background-color: #54546d;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.site-footer p {
+    color: #878fa6;
+    font-size: 19px;
+    text-align: center;
+}
