@@ -1,0 +1,29 @@
+<!-- <p id="title">list works! {{myProp}}</p> -->
+
+<button (click)="handleClickEvent($event)">
+  <ng-container *ngIf="showLastName">Hide</ng-container>
+  <ng-container *ngIf="!showLastName">Show</ng-container>
+  last name
+</button>
+
+<div *ngIf="showSelectedIndex">Selected index is {{ selectedUserIndex }}</div>
+
+<ul id="list-container">
+  <li *ngFor="let user of users; let i = index" class="list-item">
+    {{ user.firstName }} - {{ user.lastName }}
+    <app-list-item
+      [currentUser]="user"
+      [showLastNameValue]="showLastName"
+      staticString="static string"
+      [staticNumber]="myNumber"
+      (click)="listItemClickHandler(i)"
+      (myCustomEvent)="customEventHandler($event)"
+    ></app-list-item>
+  </li>
+</ul>
+
+<!-- angular -->
+<ng-template></ng-template>
+
+<!-- web components -->
+<template></template>

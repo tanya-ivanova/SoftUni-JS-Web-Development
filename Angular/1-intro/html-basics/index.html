@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script>
+        const mainHeading = document.getElementById('main-heading');
+        console.log(mainHeading);
+    </script> -->
+  </head>
+  <body>
+    <nav>
+      <!-- <a href="/index.html">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/contact-us.html">Contact us</a> -->
+
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact-us">Contact us</a>
+    </nav>
+
+    <div id="app"></div>
+
+    <script>
+        function getPath(path) {
+            return path.replace('http://127.0.0.1:5500/html-basics/', '').replace('index.html', '/')
+        }
+
+        const app = document.getElementById('app');
+
+        const routes = {
+            '/': '<h1>Home</h1>',
+            '/about': '<h1>About</h1>',
+            '/contact-us': '<h1>Contact us</h1>'
+        };
+
+        function render(path) {
+            const contentForPath = routes[path];
+            if(!contentForPath) {return;};
+            app.innerHTML = contentForPath;
+        }
+
+      document.querySelectorAll('a').forEach((el) => {
+        el.addEventListener('click', (e) => {
+            e.preventDefault();
+            const {target} = e;
+            const path = target.getAttribute('href');
+            render(path);
+            history.pushState('', '', path);
+        });
+      });
+        console.log(getPath(window.location.toString()));
+        // render(getPath(window.location.toString())); 
+        render(window.location.pathname);
+        
+        window.addEventListener('popstate', (e) => {
+            e.preventDefault();
+            console.log(location.pathname);
+            render(location.pathname);
+        });
+
+        window.addEventListener('hashchange', (e) => {
+            e.preventDefault();
+            render(location.pathname);
+        });
+    </script>
+  </body>
+</html>
