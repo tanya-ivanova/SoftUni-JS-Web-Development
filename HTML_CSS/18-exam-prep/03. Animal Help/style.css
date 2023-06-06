@@ -1,0 +1,323 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css';
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    padding-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+header ul.site-menu {
+    display: flex;
+    gap: 30px;
+}
+
+header ul.site-menu a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+}
+
+section.hero {
+    background-color: #85dcff;
+    height: 66vh;
+    display: flex;     
+    gap: 150px; 
+    padding-left: 180px;
+    align-items: center;
+}
+
+section.hero .content-container {
+    flex-basis: 46%;
+}
+
+section.hero .content-container h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+section.hero .content-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+
+button.donate-now {
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 100px;
+    border-radius: 8px;
+    margin-right: 34px;
+}
+
+button.join-our-newsletter {
+    background-color: black;
+    color: white;    
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 100px;
+    border-radius: 8px;
+    margin-right: 34px;
+}
+
+section.hero .image-container {
+    width: 38%;
+    height: 100%;
+}
+
+section.hero .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+
+section.features h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+section.features p.description {
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.features ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.features li {
+    flex-basis: 22%;
+    text-align: center;
+}
+
+section.features li i {
+    color: #85dcff;
+    font-size: 160px;
+    margin-bottom: 30px;
+}
+
+section.features li h3 {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+section.features li p {
+    font-size: 19px;
+    line-height: 1.6;
+    letter-spacing: 1.2px;
+}
+
+section.our-mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #85dcff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+section.our-mission h2 {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+section.our-mission ul {
+    display: grid;
+    grid-template-columns: 490px 490px;
+    column-gap: 60px;
+    row-gap: 20px;
+    margin-bottom: 50px;
+}
+
+section.our-mission ul li {
+    font-size: 26px;
+    display: flex;
+}
+
+section.our-mission ul li i {
+    margin-right: 10px;
+}
+
+section.our-mission button {
+    background-color: black;
+    color: white;
+    padding: 16px 90px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+section.animals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+section.animals h2 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+section.animals p {
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+
+section.animals ul.images {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+section.animals ul.images li {
+    flex-basis: 22%;
+    height: 330px;
+}
+
+section.animals ul.images li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.how-we-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+section.how-we-work h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+section.how-we-work ul.points {
+    width: 73%;
+}
+
+section.how-we-work ul.points li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+section.how-we-work ul.points li h3 {
+    background-color: #85dcff;
+    padding: 30px;
+    font-size: 25px;
+    border-radius: 8px 8px 0 0;
+}
+
+section.how-we-work ul.points li p {
+    padding: 30px 20px 40px 30px;
+    font-size: 22px;
+    font-weight: bold;
+    border-left: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-radius: 0 0 8px 8px;
+}
+
+section.get-alerts {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+section.get-alerts .image-container {
+    flex-basis: 50%;
+}
+
+section.get-alerts .content-container {
+    flex-basis: 40%;
+    margin-left: 80px;
+}
+
+section.get-alerts .content-container h2 {
+    font-size: 38px;
+    margin-bottom: 40px;
+}
+
+section.get-alerts .content-container p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+section.get-alerts .content-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.get-alerts .content-container form input {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 20px 130px 20px 20px;
+    margin-bottom: 40px;
+}
+
+section.get-alerts .content-container form input::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    color: #76768a;
+}
+
+section.get-alerts .content-container form button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 18px 90px;
+    border-radius: 8px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto 40px auto;
+}
+
+footer .socials {
+    display: flex;
+    gap: 30px;
+}
+
+footer .socials li {
+    font-size: 40px;
+}
+
+footer p {
+    font-size: 20px;
+    font-weight: bold;
+}
