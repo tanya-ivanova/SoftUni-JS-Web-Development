@@ -1,0 +1,223 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #41bead;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+}
+
+header .logo-wrapper {
+  width: 130px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+header nav ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+section.teachers-heading {
+  background-color: #ffb402;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+section.teachers-heading h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+section.teachers-heading p {
+  width: 40%;
+  font-size: 18px;
+  text-align: center;
+}
+
+section.hero {
+  padding-top: 90px;
+  margin-bottom: 300px;
+}
+
+section.hero ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 120px;
+}
+
+section.hero ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+section.hero ul li .image-container {
+  width: 220px;
+}
+
+section.hero ul li .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 10px solid #41bead;
+}
+
+section.hero ul li .content-container {
+  flex-basis: 52%;
+}
+
+section.hero ul li .content-container h2 {
+  color: #41bead;
+  margin-bottom: 10px;
+}
+
+section.hero ul li .content-container p.position {
+  color: grey;
+  margin-bottom: 30px;
+}
+
+section.hero ul li .content-container p.description {
+  font-size: 18px;
+  color: #6d655c;
+  line-height: 1.2;
+}
+
+section.teachers-list {
+  margin-bottom: 200px;
+}
+
+section.teachers-list ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+section.teachers-list .image-container {
+  width: 220px;
+  height: 220px;
+  margin-bottom: 20px;
+}
+
+section.teachers-list .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 10px solid #41bead;
+}
+
+section.teachers-list ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.teachers-list ul li h2 {
+  color: #41bead;
+}
+
+section.teachers-list ul li p {
+  color: grey;
+}
+
+section.line-send-contact {
+  height: 14px;
+  background-color: #92cdfb;
+}
+
+section.send-contact {
+  background-color: #66b9f8;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+section.send-contact h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+section.send-contact p {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 38px;
+  font-size: 18px;
+}
+
+section.send-contact input {
+  background-color: #66b9f8;
+  border: 1px solid white;
+  margin-right: 30px;
+  padding: 16px 18px;
+  border-radius: 8px;
+}
+
+section.send-contact input::placeholder {
+  color: white;
+}
+
+section.send-contact button {
+  background-color: #fe9000;
+  color: white;
+  padding: 14px 34px;
+  border-radius: 40px;
+  border: none;
+  font-weight: bold;      
+box-shadow: 0px 6px 7px 2px rgba(115,115,115,0.41);
+}
+
+section.line-footer {
+    height: 14px;
+    background-color: #919191;
+}
+
+footer {
+    background-color: #565656;
+    color: white;
+    padding: 24px 0;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-lists h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-lists a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.footer-lists .links li {
+    margin-bottom: 10px;
+}
+
+.footer-lists .links.socials {
+    display: flex;
+    gap: 20px;
+    font-size: 32px;
+}
