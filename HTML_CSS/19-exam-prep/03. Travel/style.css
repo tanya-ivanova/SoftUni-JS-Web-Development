@@ -1,0 +1,229 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css';
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px 20px 0 ;
+  position: relative;
+  justify-content: flex-end;
+}
+
+header .logo-container {
+  background: rgb(149, 102, 10);
+  background: linear-gradient(
+    360deg,
+    rgba(149, 102, 10, 1) 0%,
+    rgba(178, 139, 36, 1) 50%,
+    rgba(208, 172, 60, 1) 100%
+  );
+  padding: 40px 30px 30px 30px;
+  position: absolute;
+  left: 70px;
+}
+
+header .navigations {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    color: #4a546e;
+    font-size: 16px;    
+}
+
+header .navigations ul {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-end;
+}
+
+header .nav-icons li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .nav-icons li i {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+header .menu a {
+    color: #4a546e;
+    text-decoration: none;
+}
+
+section.hero {
+  background: rgb(149, 102, 10);
+  background: linear-gradient(
+    90deg,
+    rgba(149, 102, 10, 1) 0%,
+    rgba(178, 139, 36, 1) 50%,
+    rgba(208, 172, 60, 1) 100%
+  );
+}
+
+section.hero .slider {
+  height: 62vh;
+  background-image: url(image/slider.jpg);
+  background-size: 128%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
+section.hero .shuttle {
+  margin-left: 80px;
+  margin-bottom: 80px;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  width: 34%;
+  padding: 40px 20px 30px 30px;
+}
+
+section.hero .shuttle h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+section.hero .shuttle p {
+  font-size: 20px;
+  margin-bottom: 12px;
+  letter-spacing: 2px;
+}
+
+section.hero .shuttle button {
+  background: none;
+  border: 3px solid white;
+  color: #ffa302;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+section.hero .content-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+
+section.hero .content-container h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+section.hero .content-container ul {
+  width: 34%;
+  margin-bottom: 10px;
+}
+
+section.hero .content-container li {
+  display: flex;
+  font-size: 22px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+section.hero .content-container li i {
+  padding-right: 8px;
+}
+
+section.hero .content-container button {
+  background: none;
+  color: white;
+  border: 3px solid white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 22px;
+}
+
+section.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 60%;
+    margin: 0 auto;
+    color: #4f5872;
+    text-align: center;
+}
+
+section.features h1 {
+    font-size: 46px;
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+section.features p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+section.features ul {
+    display: flex;
+    gap: 6px;
+}
+
+section.features li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 200px;
+}
+
+section.features li .image-container {
+    width: 200px;
+    margin-bottom: 14px;
+}
+
+section.features li .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    padding: 3px;
+    border: 2px solid black;
+}
+
+section.features li h3 {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+section.newsletter {
+    background-color: #b58e0f;
+    display: flex;
+    padding: 24px 30px 14px 30px;
+    color: white;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+section.newsletter button {
+    background-color: #b58e0f;
+    color: white;
+    border: 3px solid white;
+    padding: 12px 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    text-align: center;
+}
