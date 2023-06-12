@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+header ul {
+  display: flex;
+  gap: 30px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+section.hero {
+  position: relative;
+}
+
+section.hero .content {
+  display: flex;
+  position: absolute;
+  top: 220px;
+  left: 300px;
+}
+
+.we-care {
+  color: white;
+  padding-top: 100px;
+  flex-basis: 24%;
+}
+
+.we-care h1 {
+  font-size: 60px;
+}
+
+.we-care h2 {
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1.1;
+}
+
+.we-care p {
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.we-care button {
+  background-color: white;
+  color: #ff3601;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+section.services {
+  margin: 200px auto;
+  width: 70%;
+  text-align: center;
+}
+
+section.services h2 {
+  font-size: 40px;
+}
+
+section.services > p {
+  width: 50%;
+  margin: 0 auto 60px auto;
+}
+
+section.services ul {
+  display: flex;
+  gap: 30px;
+}
+
+section.services ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ff3601;
+  border-radius: 8px;
+}
+
+section.services ul li .image-container {
+  background-image: url(images/service-bg.png);
+  height: 214px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+section.services ul li .image-container img {
+  position: absolute;
+  top: 68px;
+  left: 76px;
+}
+
+section.services ul li h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+section.services ul li p {
+  width: 60%;
+  margin: 0 auto 50px auto;
+}
+
+section.as-you-care {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section.as-you-care .image-container {
+}
+
+section.as-you-care .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section.as-you-care .content-container {
+  flex-basis: 40%;
+}
+
+section.as-you-care .content-container .title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+section.as-you-care .content-container .sub-title {
+  font-size: 44px;
+  margin-bottom: 16px;
+}
+
+section.as-you-care .content-container p {
+  margin-bottom: 42px;
+}
+
+section.as-you-care .content-container button {
+  background: rgb(241, 67, 52);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 67, 52, 1) 0%,
+    rgba(239, 79, 32, 1) 50%,
+    rgba(238, 90, 6, 1) 100%
+  );
+  color: white;
+  border: none;
+  padding: 12px 44px;
+  border-radius: 30px;
+}
+
+section.why-go {
+  background-image: url(images/cats-bg.png);
+  height: 64vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin: 0 auto 120px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+section.why-go .section-wrapper {
+  width: 30%;
+}
+
+section.why-go h2 {
+  font-size: 44px;
+  margin-bottom: 20px;
+}
+
+section.why-go p.description {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+section.why-go div.contact {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+section.why-go div.contact button {
+  background-color: white;
+  color: #ff3601;
+  border: none;
+  padding: 14px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+section.why-go div.contact .phone {
+    font-weight: bold;
+}
+
+footer {
+    margin-bottom: 100px;
+    color: #2a2a2a;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-sections h3 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.footer-sections a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+.footer-sections li,
+.footer-sections p {
+    margin-bottom: 10px;
+}

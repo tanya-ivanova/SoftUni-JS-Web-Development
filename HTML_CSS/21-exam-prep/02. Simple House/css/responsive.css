@@ -1,0 +1,30 @@
+@media (max-width: 600px) {
+    article.row.tm-header-inner {
+        flex-direction: column;
+    }
+
+    nav.col-md-6.col-12.tm-nav {        
+        align-self: flex-end;
+    }
+
+    main section.tm-cta-section.tm-section.tm-container-inner {        
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.row.tm-gallery {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    #tm-gallery-page-pizza {
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main section.tm-cta-section.tm-section.tm-container-inner .row {
+        flex-direction: column;
+    }
+}
