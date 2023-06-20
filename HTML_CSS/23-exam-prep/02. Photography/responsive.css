@@ -1,0 +1,31 @@
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .thumbnails {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 2em 0;
+    }
+
+    .thumbnails > div {
+        padding-left: 0;
+        width: 90%;
+        align-items: center;
+    }
+
+    .thumbnails a img {
+        height: 300px;
+    }
+
+    .thumbnails a h3 {
+        font-size: 1.3em;
+    }
+
+    footer p {
+        font-size: 1.4em;
+    }
+}

@@ -1,0 +1,102 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+section.hero {
+    background-image: url(images/hero-certificates.jpg), linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9));
+    background-blend-mode: overlay;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 4px 11px 2px #B0B0B0;
+    margin-bottom: 80px;
+}
+
+header ul {
+    display: flex;
+    gap: 20px;
+}
+
+header .logo-container {
+    width: 150px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #29394b;
+}
+
+header ul li:last-child a {
+    padding: 12px;
+    border-radius: 100%;
+    background-color: #3ea0e7;
+    color: white;
+    box-shadow: 3px 4px 16px -1px #3EA0E7;
+}
+
+section.certificates {
+    margin: 0 auto;
+    width: 72%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.certificates .content-container {
+    flex-basis: 62%;
+    background-color: #29394b;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 24px;
+}
+
+section.certificates .content-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+section.certificates .content-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+section.certificates .certificates-container {
+    display: flex;    
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-basis: 34%;
+}
+
+section.certificates .certificates-container img:last-child {
+    flex-basis: 50%;    
+}
+
+section.certificates .certificates-container img:first-child {
+    flex-basis: 45%;    
+}
+
+p.diploma-recognition {
+    width: 72%;
+    margin: 40px auto 0 auto;
+    font-size: 21px;
+    font-style: oblique;
+    color: #5c6777;
+}

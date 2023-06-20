@@ -1,0 +1,105 @@
+@media (max-width: 600px) {
+    .banner {
+        padding-top: 60px;
+        padding-bottom: 20px;
+    }
+
+    .banner h2 {
+        width: 90%;
+        font-size: 1.8em;
+    }
+
+    .banner p {
+        font-size: 1.3em;
+        
+    }
+
+    ul.actions {
+        display: flex;
+        justify-content: center;               
+    }
+
+    ul.actions li {        
+        flex-basis: 96%;       
+    }
+
+    .banner .button.special {
+        display: block;
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .wrapper > .inner {
+        width: 100%;
+    }
+
+    header.major {
+        margin-bottom: 30px;
+    }
+
+    section.special {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 90%;
+        padding: 30px 10px;
+    }
+
+    .feature .fa.fa-diamond {
+        font-size: 3em;
+    }
+
+    .feature h3 {
+        font-size: 1.5em;
+    }
+
+    .feature p {
+        font-size: 1em;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 96%;        
+    }
+
+    .grid-form .form-control {
+        width: 96%;        
+    }
+
+    .wrapper.style2 input[type="submit"] {
+        width: 100%;
+    }
+
+    .footer:before {
+        width: 90%;
+        left: 5%;
+    }
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .footer .copyright {
+        margin-bottom: 0;
+    }
+}

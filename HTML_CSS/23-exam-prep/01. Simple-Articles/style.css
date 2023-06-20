@@ -1,0 +1,79 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    margin: 100px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    background-color: #e3f3fd;
+    color: #4e5c6c;
+    border-radius: 8px;
+    padding: 30px;
+    flex-basis: 47%;     
+    box-shadow: 0px 1px 0px 1px #DBDBDB;
+}
+
+.left h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 1.5;
+    margin-bottom: 14px;
+}
+
+.left li {
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+.left li i {
+    font-size: 16px;
+    margin-right: 14px;
+    color: #44a9f8;
+}
+
+.right {
+    flex-basis: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 6px solid #44a9f8;
+    border-radius: 8px;
+}
+
+.right .price {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.right .price span {
+    color: #44a9f8;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.start-learning {
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+button {
+    background-color: #44a9f8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 60px;
+    font-size: 18px;
+    box-shadow: 0px 2px 7px 1px #ADADAD;
+}
