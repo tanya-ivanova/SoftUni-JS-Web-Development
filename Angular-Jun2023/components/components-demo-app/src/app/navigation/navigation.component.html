@@ -1,0 +1,33 @@
+<h3>{{titleTakenFromApp}}</h3>
+<nav id="nav">
+  <p *ngIf="toggle">{{ title }}</p>
+  <p>{{ toggle ? 'SHOW' : 'HIDE' }}</p>
+  <button (click)="handleClick($event)">Click me!</button>
+
+  <div>
+    <ul *ngIf="isActive">
+      <li *ngFor="let user of activeUsers">
+        <span *ngIf="user.age % 2 === 0">
+          {{ user.name + ': ' + user.age }}
+        </span>
+      </li>
+    </ul>
+
+    <ul *ngIf="!isActive">
+      <li *ngFor="let user of activeUsers"
+        [class.green]="user.age % 2 === 0"
+        [style.color]="user.age % 2 !== 0 ? 'red' : ''"
+      >
+        <span>{{ user.name + ': ' + user.age }}</span>
+      </li>
+    </ul>
+
+    <button (click)="activeHandler()">
+      Make {{ isActive ? 'Inactive' : 'Active' }}
+    </button>
+
+    <div>
+      <input [value]="inputValue" type="text" />
+    </div>
+  </div>
+</nav>
