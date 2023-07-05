@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TestFirebase</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/<version>/maps/maps.css"
+    />
+    <style>
+      #map {
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <app-root></app-root>
+    
+    <!-- Replace version in the URL with desired library version -->
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/<version>/maps/maps-web.min.js"></script>
+    <script>
+      tt.setProductInfo("<your-product-name>", "<your-product-version>")
+      tt.map({
+        key: "jCcpht8Igo9gAxQI97mUdla41kQBuBL7",
+        container: "map",
+      })
+    </script>
+  </body>
+</html>

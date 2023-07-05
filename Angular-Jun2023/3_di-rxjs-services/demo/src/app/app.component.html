@@ -1,0 +1,14 @@
+<h2>{{title}}</h2>
+
+<div>
+  <input #inputName type="text" name="name" placeholder="name">
+  <input #inputAge type="text" name="age" placeholder="age">
+  <button (click)="setUser(inputName, inputAge)">Add user</button>
+</div>
+<div *ngIf="isLoading">
+  <h3>Loading...</h3>
+</div>
+
+<div *ngIf="!isLoading">
+  <app-user-list [users]="appUsers" />
+</div>
