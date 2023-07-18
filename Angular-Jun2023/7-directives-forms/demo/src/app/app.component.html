@@ -1,0 +1,29 @@
+<nav>
+    <div appMyRouterLink="/login">Link to Login</div>
+    <div appMyRouterLink="/register">Link to Register</div>
+</nav>
+
+<router-outlet />
+
+<hr>
+<div *ngIf="true">Simple div 1</div>
+
+<ng-template [ngIf]="true">
+    <div>Simple div 2</div>
+</ng-template>
+<hr>
+
+<button (click)="toggle()">Toggle my state</button>
+
+<div *appMyStructural="isShown">Structural Directives (Usage 1)</div>
+
+<ng-template [appMyStructural]="isShown" let-value="value" let-val #myDirectiveRef="appMyStructural">
+    <div>Structural Directives (Usage 2)</div>
+    <h4>value: {{value}} : {{val}}</h4>
+</ng-template>
+
+<ng-template #tmp>
+    <div>Structural Directives (Usage 3)</div>
+</ng-template>
+
+<ng-container [appMyStructural]="isShown" [myTmpProp]="tmp" />
